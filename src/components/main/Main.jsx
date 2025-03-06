@@ -7,7 +7,7 @@ const Main = () => {
     <div className='main'>
       <div className="nav">
         <p>Noonkey AI</p>
-        <img src={assets.user_icon} alt="" />
+        <img src={assets.perfil_icon} alt="" />
       </div>
       <div className="main-container">
         <div className="greet">
