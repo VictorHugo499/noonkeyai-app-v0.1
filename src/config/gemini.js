@@ -1,9 +1,2 @@
-const { GoogleGenerativeAI } = require("@google/generative-ai");
-
-const genAI = new GoogleGenerativeAI("AIzaSyCzl-ewJbQoDkRtSJCCnFFtyCI-McDz4eM");
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
-const prompt = "Explain how AI works";
-
-const result = await model.generateContent(prompt);
-console.log(result.response.text());
+export const GEMINI_API_KEY = 'AIzaSyCuev3JVFGlIpKKWfo1WaMssqGl-8IaxBQ';
+export const GEMINI_API_SECRET = 'seu_api_secret_aqui';
